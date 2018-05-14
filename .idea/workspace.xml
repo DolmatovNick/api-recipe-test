@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea47b37-8d27-4120-9728-f558b3130eac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/creds.inc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/creds.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/Connection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/RecipeAdapter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/UserAdapter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup/db.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Recapi/Environment.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Recapi/Middleware/Authentication.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Recapi/Models/Recipe.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Recapi/Models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/creds.inc.php" afterPath="$PROJECT_DIR$/config/creds.inc.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,28 +37,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="360">
-                <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-                <folding>
-                  <marker date="1526301017715" expanded="true" signature="1234:1298" ph="{...}" />
-                  <marker date="1526301017715" expanded="true" signature="1326:1407" ph="{...}" />
-                  <marker date="1526301017715" expanded="true" signature="1528:1647" ph="{...}" />
-                  <marker date="1526301017715" expanded="true" signature="1675:1819" ph="{&quot;id&quot;: 1...}" />
-                  <marker date="1526301017715" expanded="true" signature="1876:1995" ph="{...}" />
-                  <marker date="1526301017715" expanded="true" signature="2023:2167" ph="{&quot;name&quot;: &quot;Sugar and water recipe&quot;...}" />
-                  <marker date="1526301017715" expanded="true" signature="2324:2405" ph="{&quot;id&quot;: 1...}" />
-                  <marker date="1526301017715" expanded="true" signature="2566:2958" ph="[...]" />
-                  <marker date="1526301017715" expanded="true" signature="2566:2960" ph="[...]" />
-                  <marker date="1526301017715" expanded="true" signature="2572:2583" ph="{&quot;id&quot;: 1...}" />
-                  <marker date="1526301017715" expanded="true" signature="2572:2762" ph="{&quot;name&quot;: &quot;Sugar and water recipe&quot;...}" />
-                  <marker date="1526301017715" expanded="true" signature="2768:2958" ph="{&quot;id&quot;: 2...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/db/connection.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Recapi/Environment.php" />
@@ -102,6 +72,8 @@
         <option value="$PROJECT_DIR$/bootstrap.php" />
         <option value="$PROJECT_DIR$/src/Recapi/Middleware/Authentication.php" />
         <option value="$PROJECT_DIR$/src/Recapi/Models/Recipe.php" />
+        <option value="$PROJECT_DIR$/config/creds.inc.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -360,12 +332,12 @@
       <updated>1526205628204</updated>
       <workItem from="1526205629986" duration="11474000" />
       <workItem from="1526273561587" duration="15005000" />
-      <workItem from="1526290406187" duration="11343000" />
+      <workItem from="1526290406187" duration="11950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37822000" />
+    <option name="totallyTimeSpent" value="38429000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,13 +470,6 @@
             <marker date="1526295823738" expanded="true" signature="4637:4689" ph="..." />
             <marker date="1526295823738" expanded="true" signature="4697:4761" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -789,17 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/creds.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1526299433275" expanded="true" signature="15:199" ph="..." />
-            <marker date="1526299433275" expanded="true" signature="35:197" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f17a6c07-c406-409f-adbe-ef9fe483c04e/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -915,6 +869,25 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/creds.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1526302391461" expanded="true" signature="15:197" ph="..." />
+            <marker date="1526302391461" expanded="true" signature="35:195" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
