@@ -139,7 +139,9 @@ How to add image: HTTP head format is binary, json is no needs
 
 ## 1 Setup
 
-Rename /config/creds.inc.php to /config/creds.php and type your credentials 
+1 Implement /setup/db.sql file on database
+ 
+2 Rename /config/creds.inc.php to /config/creds.php and type your credentials 
 
 ## 2 Authenticate
 
