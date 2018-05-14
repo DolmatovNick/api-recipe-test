@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea47b37-8d27-4120-9728-f558b3130eac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/creds.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/creds.inc.php" afterPath="$PROJECT_DIR$/config/creds.inc.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,11 +36,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="creds.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/creds.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="170">
+              <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -64,7 +63,6 @@
         <option value="$PROJECT_DIR$/db/RecipeAdapter.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f17a6c07-c406-409f-adbe-ef9fe483c04e/console.sql" />
         <option value="$PROJECT_DIR$/src/Recapi/Models/User.php" />
-        <option value="$PROJECT_DIR$/config/creds.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/setup/db.sql" />
         <option value="$PROJECT_DIR$/db/UserAdapter.php" />
@@ -74,6 +72,7 @@
         <option value="$PROJECT_DIR$/src/Recapi/Models/Recipe.php" />
         <option value="$PROJECT_DIR$/config/creds.inc.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config/creds.php" />
       </list>
     </option>
   </component>
@@ -332,12 +331,12 @@
       <updated>1526205628204</updated>
       <workItem from="1526205629986" duration="11474000" />
       <workItem from="1526273561587" duration="15005000" />
-      <workItem from="1526290406187" duration="11950000" />
+      <workItem from="1526290406187" duration="12167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38429000" />
+    <option name="totallyTimeSpent" value="38646000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -743,17 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/creds.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1526299433275" expanded="true" signature="15:199" ph="..." />
-            <marker date="1526299433275" expanded="true" signature="35:197" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f17a6c07-c406-409f-adbe-ef9fe483c04e/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -887,6 +875,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/creds.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding />
         </state>
       </provider>
