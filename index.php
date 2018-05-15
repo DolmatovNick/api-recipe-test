@@ -6,8 +6,6 @@ use Recapi\Middleware\Authentication as ApiAuth;
 
 require 'bootstrap.php';
 
-session_start();
-
 $app = new Slim\App();
 
 $apiAuth = new ApiAuth();
@@ -46,7 +44,7 @@ $app->post('/recipes', function($request, $response, $args) {
 
     $recipe->head       = $params->head;
     $recipe->body       = $params->body;
-    $recipe->user_id    = User::getCurrentUser()->id;
+    $recipe->user_id    = $request->getAttribute('user_id');
 
     $recipe->save();
 
@@ -68,7 +66,7 @@ $app->post('/recipes', function($request, $response, $args) {
 $app->put('/recipes/{recipe_id}', function($request, $response, $args) {
 
     $recipe_id = (int)$args['recipe_id'];
-    $recipe = Recipe::getByID($recipe_id, User::getCurrentUser()->id);
+    $recipe = Recipe::getByID($recipe_id, $request->getAttribute('user_id'));
 
     $params = json_decode($request->getBody());
 
@@ -96,7 +94,7 @@ $app->delete('/recipes/{recipe_id}', function($request, $response, $args) {
 
     $recipe_id = (int)$args['recipe_id'];
 
-    $recipe = Recipe::getByID($recipe_id, User::getCurrentUser()->id);
+    $recipe = Recipe::getByID($recipe_id, $request->getAttribute('user_id'));
 
     if ( $recipe->delete() ) {
         return $response->withStatus(204);
@@ -111,7 +109,7 @@ $app->put('/recipes/{recipe_id}/image', function($request, $response, $args) {
 
     $recipe_id = (int)$args['recipe_id'];
 
-    $recipe = Recipe::getByID($recipe_id, User::getCurrentUser()->id);
+    $recipe = Recipe::getByID($recipe_id, $request->getAttribute('user_id'));
 
     $file = fopen("php://input", "r");
     if ( $recipe->id != null && $recipe->attach($file) ) {
@@ -144,6 +142,6 @@ $app->get('/users/{user_id}/recipes', function($request, $response, $args) {
 
     return $response->withStatus(200)->withJson($payload);
 
-});
+})->add($apiAuth);
 
 $app->run();

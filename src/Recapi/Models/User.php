@@ -38,18 +38,7 @@ class User {
             return false;
         }
 
-        static::setCurrentUser($this);
         return true;
-    }
-
-    protected static function setCurrentUser(User $user)
-    {
-        $_SESSION['user'] = serialize($user);
-    }
-
-    public static function getCurrentUser() : User
-    {
-        return unserialize( $_SESSION['user'] );
     }
 
     public function output()

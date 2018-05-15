@@ -55,9 +55,6 @@ Support endpoints
 ```
 ##### Success code is 200
 
-    Note: key is not secirity, just fake.
-
-
 ## Create recipe
 ##### POST /recipes
 ```json
@@ -97,8 +94,13 @@ Support endpoints
 ## Add image to recipe
 ##### PUT /recipes/{recipe}/iamge
 
-How to add image: HTTP head format is binary, json is no needs  
-
+How to add image: Use HTTP HEAD binary format, json is no needs  
+```json
+{
+    "id": 1,
+    "recipe_url": "/recipes/1",
+    "image_url": "/images/1.png"
+}
 ```
 ##### Response
 ```json
@@ -108,6 +110,7 @@ How to add image: HTTP head format is binary, json is no needs
     "image_url": "/images/1.png"
 }
 ```
+     Note: API changes format input images to .png
 
 ## Delete recipe
 ### DELETE /recipes/{recipe}
@@ -147,5 +150,3 @@ How to add image: HTTP head format is binary, json is no needs
 
 You have to add "Authorization" field in HTTP HEAD and fill it with a "key" 
 from the "Create user" endpoint
-
-## 3 How to put image file
